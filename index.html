@@ -38,10 +38,10 @@
 <body class="font-manrope">
     <header class="bg bg-[#FFFFFF]">
         <nav class="md:container mx-auto">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <div class="navbar bg-base-100 md:container mx-auto">
+                <div class="navbar">
+                    <div class="dropdown left-full">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -49,14 +49,16 @@
                             </svg>
                         </div>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Item 1</a></li>
-
-                            <li><a>Item 3</a></li>
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
                         </ul>
                     </div>
 
-                    <div class="avatar">
+                    <div class="avatar lg:mx-auto">
                         <div class="rounded-full ">
                             <i class="fa-solid fa-arrow-right  -rotate-45 bg bg-[#ABEF5F] p-2"></i>
                         </div>
@@ -72,8 +74,15 @@
                         <li><a>Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end">
-                    <a class="btn">Button</a>
+                <div class="navbar text-center lg:ml-44">
+                    <div class="text-center ">
+                        <div class="avatar rounded-3xl px-2 py-2 bg bg-[#bcea87]  ">
+                            <a class="font-bold text-lg text-[#212121] mx-2  ">Book Consult</a>
+                            <div class="rounded-full ">
+                                <i class="fa-solid fa-arrow-right text-black -rotate-45 bg bg-[#97de45] p-2  "></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -92,6 +101,14 @@
                         space with natural light.</p>
                 </div>
             </div>
+            <div class="text-center ">
+            <div class="avatar rounded-3xl px-2 py-3 bg bg-[#bcea87]  ">
+                <a class="font-bold text-xl text-[#212121] mx-2  ">View Details</a>
+                <div class="rounded-full ">
+                    <i class="fa-solid fa-arrow-right text-black -rotate-45 bg bg-[#97de45] p-2  "></i>
+                </div>
+            </div>
+        </div>
         </section>
     </header>
     <!-- main section -->
@@ -105,7 +122,7 @@
                     <div class="lg:w-1/2">
                         <div class="">
                             <button class="bg bg-[#FFFFFF] rounded-lg  "> <i
-                                    class="fa-solid fa-arrow-right font-bold p-4 ">About Us</i></button>
+                                    class="fa-solid fa-arrow-right font-bold p-4 "> <span class="font-manrope">About Us</span></i></button>
                             <h1 class="text-2xl font-bold text-center lg:text-5xl font-bold">We design thoughtful,
                                 liveable spaces</h1>
                             <p class="py-6 text-sm">
@@ -136,39 +153,71 @@
             </div>
         </div>
         <!-- Our Works Process -->
-        <section class="md:container mx-auto">
-            <div class="">
-                <div class="text-center space-y-2"> <button class="bg bg-[#FFFFFF] rounded-lg  "> <i
-                            class="fa-solid fa-arrow-right font-bold p-3 ">How we works</i></button>
-                    <h1>Our Works Process</h1>
-                    <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+        <section class="container mx-auto px-4 ">
+            <div class="w-5/6 mx-auto">
+                <div class="text-center space-y-2"> <button class="bg bg-[#FFFFFF] rounded-lg"> <i
+                            class="fa-solid fa-arrow-right font-bold p-3 "><span class="font-manrope font-bold">How we works</span></i></button>
+                    <h1 class="text-6xl font-bold">Our Works Process</h1>
+                    <p class="mt-3 text-lg">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                         weathered wood, sleek metal accents.</p>
                 </div>
-                <div class=" grid  lg:grid-cols-4 gap-2 ">
-                    <div class="p-5 rounded-lg bg bg-[#E7C1D3] lg:w-64">
+                <div class=" grid lg:grid-cols-4 gap-2  md:container mx-auto mt-4 ">
+                    <div class="p-5 rounded-lg bg bg-[#E7C1D3] lg:w-64 m-auto ">
                         <img src="assets/concept.png" alt="">
                         <h1 class="text-2xl font-bold">Concept</h1>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p class="text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
                     </div>
-                    <div class=" bg bg-[#EFDA6E] lg:w-64">
+                    <div class="p-5 rounded-lg bg bg-[#EFDA6E] lg:w-64 m-auto">
                         <img src="assets/flow-chart.png" alt="">
-                        <h1>Design Process</h1>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        <h1 class="text-2xl font-bold">Design Process</h1>
+                        <p class="text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
                     </div>
-                    <div class=" bg bg-[#A4DAC3] lg:w-64">
+                    <div class="p-5 rounded-lg bg bg-[#A4DAC3] lg:w-64 mx-auto">
                         <img src="assets/vision.png" alt="">
-                        <h1>Supervision</h1>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        <h1 class="text-2xl font-bold">Supervision</h1>
+                        <p class="text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
                     </div>
-                    <div class="bg bg-[#77AAEA] lg:w-64">
+                    <div class="p-5 rounded-lg bg bg-[#77AAEA] lg:w-64 mx-auto">
                         <img src="assets/budget-planning.png" alt="">
-                        <h1>Budget Planning</h1>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        <h1 class="text-2xl font-bold">Budget Planning</h1>
+                        <p class="text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Let's Discuss Next Project -->
+         <section class="bg-cover bg-center  mt-5" 
+         style="background-image: url('assets/bg.jpg');">
+            <div class="text-center">
+                <button class="bg bg-[#ABEF5F] rounded-lg bg-opacity-50 mt-5"> <i
+                    class="fa-solid fa-arrow-right font-bold p-4 "> <span class="font-manrope">About Us</span></i></button>
+                    <h1 class="lg:text-5xl text-4xl font-bold ">Let’s Discuss Next Project</h1>
+                    <p class="text-lg my-3 lg:px-96">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <!-- input section -->
+            <div class=" container mx-auto lg:w-4/6  grid grid-cols-2   lg:gap-7 gap-3 px-4" >
+                <input class="rounded-lg p-2" type="text" placeholder="First name">
+                <input class="rounded-lg p-2"type="text" placeholder="Last name ">
+                <input class="rounded-lg p-2"type="text" placeholder="Phone number ">
+                <input class="rounded-lg p-2"type="email" placeholder="Email number ">
+                <textarea class="textarea textarea-bordered h-60 col-span-2" placeholder="White your message here "></textarea>
+            </div>
+            <div class="container mx-auto lg:w-7/12 rounded-2xl bg bg-[#ABEF5F] text-center  my-2">
+            <div class="avatar  lg:px-48 py-3   ">
+                <a class="font-bold text-xl  "> Send Mail</a>
+                <div class="rounded-full ">
+                    <i class="fa-solid fa-arrow-right text-white -rotate-45 bg bg-[#1C1C1C] p-2 "></i>
+                </div>
+            </div>
+            </div>
+         </section>
+
     </main>
+    <footer>
+        <div>
+
+        </div>
+    </footer>
 </body>
 
 </html>
